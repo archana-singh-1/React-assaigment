@@ -1,61 +1,145 @@
 *{
 	box-sizing:border-box;
+	
 }
 body{
-	margin:0px;
+	background-color:black;
+	color:pink;
+
 }
-.row{
-	border:solid 2px black;
-}
-.col{
-	border:solid 2px red;
-	color:red;
+.box{
+	border:solid 1px red;
+	width:auto;
 	height:28px;
 }
-
-
-.col1{
-	border:solid 2px red;
-	color:red;
+.box1{
+	border:solid 1px red;
+	width:auto;
 	height:72px;
-	width:1120px
+	margin-right:80px;
+	
 	
 }
-.row{
-	border:solid 2px red;
-	color:red;
-	height:4000px;
-	padding:0px,0px,0px,160px;
-}
-.col2{
-	border:solid 2px red;
-	color:red;
+.box2{
+	border:solid 1px red;
+	width:auto;
 	height:28px;
 	
+	
 }
-.col3{
-	border:solid 2px red;
-	color:red;
+.box3{
+	border:solid 1px red;
+	width:auto;
 	height:40px;
-	width:100%;
+	
+	
 }
-.movie_col{
-	border:solid 2px red;
-	color:red;
+.box4{
+	border:solid 1px red;
+	width:auto;
+	height:30px;
+	margin-right:2500px;
+	
+	
+}
+.box5{
+	border:solid 1px red;
+	width:auto;
+	height:28px;
+	
+	
+}
+.img_1{
+	height:70px;
+	width:70px;
+	margin-left:80px;
+}
+.img_2{
+	height:70px;
+	width:140px;
+	margin-left:10px;
+}
+.img_3{
+	height:90px;
+	width:330px;
+	float:right;
+}
+.img_4{
+	height:30px;
+	width:90px;
+	margin-left:133px;
+}
+.row{
+	border:solid 1px red;
+	width:1500px;
 	height:auto;
-	width:1200px;
-	margin:auto;
 }
 .movie_row{
-	border:solid 2px red;
-	color:red;
-	height:277px;
-	width:1200px;
+	height:350px;
+	width:auto;
+	border:solid 1px blue;
+	margin-left:150px;
+	
 }
-.movie_pic{
-	border:solid 2px red;
-	color:red;
-	height:260px;
-	width:500px;
+.img_box{
+	height:100%;
+	width:300px;
+	border:solid 1px red;
+	float:left;
+}
+.Description_box{
+	height:250px;
+	width:1044px;
+	border:solid 1px blue;
+	float:left;
+}
 
+
+
+.movie_img{
+	height:330px;
+	width:100%;
 }
+.title{
+	height:125px;
+	width:600px;
+	border:solid 1px blue;
+	margin-left:5px;
+	
+}
+.rating{
+	height:50px;
+	width:1040px;
+	border:solid 1px blue;
+	margin-left:5px;
+	margin-top:10px;
+}
+
+
+.like{
+	height:30px;
+	width:30px;
+}
+.Dislikes{
+	height:30px;
+	width:30px;
+	margin-top:-25px;
+	margin-left:20px;
+}
+.voter_buttom{
+	height:30px;
+	width:40px;
+}
+.circle{
+	height:30px;
+	width:30px;
+	margin-left:30px;
+	margin-top:-25px;
+}
+.Delete_icon{
+	height:30px;
+	width:30px;
+	float:right;
+	margin-top:30px;
+}
+
