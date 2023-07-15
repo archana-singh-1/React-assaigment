@@ -11,6 +11,31 @@ function Page(){
 		const updateMovies=movies.filter((movie)=>movie!==id);
 		setMovies(updateMovies);
 	}
+	const handleLike=(id) => {
+		const updatemovie=movies.map((movie) => {
+			if (movie.id===id) {
+				const vote=movie.vote+1;
+				return {...movie,vote:movie.vote+1,vote};
+			}
+			return movie ;
+		});
+		const sortmovie= updatemovie.sort((a,b)=> b.vote - a.vote);
+		setMovies(sortmovie);
+	};
+	
+	const handledisLike=(id) => {
+		const updatemovie=movies.map((movie) => {
+			if (movie.id===id) {
+				const vote=movie.vote-1;
+				return {...movie,vote:movie.vote-1,vote};
+			}
+			return movie ;
+		});
+		const sortmovie= updatemovie.sort((a,b)=> b.vote - a.vote);
+		setMovies(sortmovie);
+	};
+	
+ 
 	return (
 		<>
 			<Movie_header/>
@@ -18,6 +43,9 @@ function Page(){
 				<Movie_row
 					onclick={()=>handledeletMovie(movie)}
 					data={movie}
+					onclick1={()=>handleLike(movie.id)}
+					onclick2={()=>handledisLike(movie.id)}
+					like={movie.vote}
 				/>
 			
 			)}

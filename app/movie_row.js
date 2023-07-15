@@ -1,5 +1,6 @@
 import Delete from "./Delete"
 import Rating from "./Rating"
+import LikeDislike from "./like_dislike"
 function Movie_row(props) {
 	return(
 		<div className="movie_row">
@@ -18,7 +19,14 @@ function Movie_row(props) {
 				<Delete
 					onDelete={props.onclick}
 				/>
-				<Rating/>
+				<Rating
+					like={props.like}
+					dislike={props.dislike}
+					onclick1={props.onclick1}
+					onclick2={props.onclick2}
+					
+					
+				/>
 			</div>
 		</div>
 	)
