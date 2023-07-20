@@ -16,6 +16,7 @@ function Movie_header(props){
 				</div>
 				<div className="box5"></div>
 			</div>
+			<div class="bottoms"></div>
 		</>
 	);
 };

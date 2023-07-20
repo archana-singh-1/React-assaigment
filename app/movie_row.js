@@ -27,6 +27,7 @@ function Movie_row(props) {
 					
 					
 				/>
+			<div class="bottom"></div>
 			</div>
 		</div>
 	)

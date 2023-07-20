@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Movie_header from "./movie_header.js"
 import Movie_row from "./movie_row.js"
 import {Movie_list} from "./Object.js"
+import Footer from "./Footer.js"
 
 function Page(){
 	const [movies,setMovies]=useState(Movie_list);
@@ -15,7 +16,7 @@ function Page(){
 		const updatemovie=movies.map((movie) => {
 			if (movie.id===id) {
 				const vote=movie.vote+1;
-				return {...movie,vote:movie.vote+1,vote};
+				return {...movie,vote};
 			}
 			return movie ;
 		});
@@ -27,7 +28,7 @@ function Page(){
 		const updatemovie=movies.map((movie) => {
 			if (movie.id===id) {
 				const vote=movie.vote-1;
-				return {...movie,vote:movie.vote-1,vote};
+				return {...movie,vote};
 			}
 			return movie ;
 		});
@@ -49,6 +50,7 @@ function Page(){
 				/>
 			
 			)}
+			<Footer/>
 				
 		</>
 	);

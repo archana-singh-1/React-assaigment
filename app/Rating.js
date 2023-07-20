@@ -8,8 +8,6 @@ function Rating (props) {
 			<LikeDislike
 				onclick1={props.onclick1}
 				onclick2={props.onclick2}
-				
-				
 				like={props.like}
 				dislike={props.dislike}
 			/>
