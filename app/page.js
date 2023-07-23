@@ -5,6 +5,7 @@ import Movie_header from "./movie_header.js"
 import Movie_row from "./movie_row.js"
 import {Movie_list} from "./Object.js"
 import Footer from "./Footer.js"
+import Add_movie from "./Add_movie.js"
 
 function Page(){
 	const [movies,setMovies]=useState(Movie_list);
@@ -50,6 +51,7 @@ function Page(){
 				/>
 			
 			)}
+			<Add_movie/>
 			<Footer/>
 				
 		</>

@@ -135,3 +135,83 @@ body{
 	float:left;
 	margin-top:60px;
 }
+.add_movie{
+	height:150px;
+	width:auto;
+	margin-top:200px;
+}
+h3{
+	margin-left:150px;
+}
+h6{
+	margin-left:150px;
+}
+.new_movie{
+	height:40px;
+	width:180px;
+	margin-left:150px;
+	background-color:red;
+}
+.frame{
+	height:25px;
+}
+.new_add{
+	margin-left:15px;
+	height:15px;
+	margin-top:15px;
+}
+.a{
+	height:20px;
+	width:35px;
+	float:right;
+	margin-top:10px;
+	margin-right:15px;
+}
+.add_movie_row{
+	height:900px;
+	width:900px;
+	border:solid 1px green;
+	margin-left:150px;
+}
+.fill_form{
+	height:30px;
+	width:300px;
+	margin-left:200px;
+	margin-top:50px;
+}
+.movie_form{
+	height:30px;
+	width:300px;
+}
+.name_of_movie{
+	height:20px;
+	width:200px;
+	margin-top:70px;
+}
+.year_of_release{
+	height:20px;
+	width:200px;
+	margin-top:70px;
+}
+input{
+	background-color:#272734;
+	height:30px;
+	width:200px;
+	border:solid 1px black;
+	color:white;
+}
+input{
+	border:solid 1px red;
+}
+.check_box{
+	height:200px;
+	width:300px;
+	border:solid 1px red;
+	margin-top:40px;
+	background-color:red;
+}
+#checkbox{
+	width:30px;
+	height:25px;
+	display: grid;
+}
