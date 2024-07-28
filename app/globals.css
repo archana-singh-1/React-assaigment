@@ -2,6 +2,7 @@
 body{
 	background-color:black;
 	color:white;
+	margin: 0;
 	
 }
 
@@ -54,6 +55,7 @@ body{
 .movie_row{
 	height:350px;
 	margin-left:150px;
+	margin-top: 8px;
 	
 }
 .img_box{
@@ -62,28 +64,24 @@ body{
 	float:left;
 }
 .Description_box{
-	float:left;
 	margin-left:50px;
+	display: flex;
+	flex-direction: column;
 }
 
 
 
 .movie_img{
-	height:330px;
+	height:320px;
 	width:100%;
 }
 .title{
 	height:125px;
 	width:600px;
-	margin-left:5px;
+	margin-left:37px;
 	
 }
-.rating{
-	height:50px;
-	width:1040px;
-	margin-left:5px;
-	margin-top:10px;
-}
+
 .like{
 	margin-left:60px;
 }
@@ -106,7 +104,7 @@ body{
 }
 .bottom{
 	border:solid 1px white;
-	margin-top:3px;
+	
 }
 .bottoms{
 	border:solid 1px red;
@@ -114,27 +112,18 @@ body{
 
 
 .footer{
-	border:solid 2px blue;
-	height:106px;
-	width:auto;
-	margin-top:1000px;
+	width:100%;
 	background-color:#272734;
-	
 	
 }
 .project_div{
-	height:30px;
+	display: flex;
+	gap: 28px;
 	width:150px;
-	float:left;
-	margin-left:200px;
-	margin-top:55px;
+	padding: 40PX 40PX 49PX 570PX;
+
 }
-.project_divs{
-	height:30px;
-	width:150px;
-	float:left;
-	margin-top:60px;
-}
+
 .add_movie{
 	height:150px;
 	width:auto;
@@ -215,3 +204,29 @@ input{
 	height:25px;
 	display: grid;
 }
+
+/* .thumb-container{
+	
+} */
+
+h1{
+	margin: 0;
+}
+
+h4{
+	margin: 0;
+}
+
+.deleteIcon{
+	margin: 0;
+	border:solid 2px black;
+}
+
+.abc{
+	border: solid 2px red;
+} 
+
+/* .rating{
+	border:solid 2px red
+}  */
+

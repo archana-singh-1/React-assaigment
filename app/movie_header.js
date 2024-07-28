@@ -1,5 +1,4 @@
-import Movie_box from './box.js'
-function Movie_header(props){
+function Movie_header(){
 	return (
 		<>
 			<div className="movie_conten">
@@ -16,7 +15,7 @@ function Movie_header(props){
 				</div>
 				<div className="box5"></div>
 			</div>
-			<div class="bottoms"></div>
+			<div className="bottoms"></div>
 		</>
 	);
 };
